@@ -2,18 +2,18 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgba(56, 232, 255, 0.486);
+  border-bottom:3px solid rgba(56, 232, 255, 0.486);
+  width: 100%;
+}
+.App-main {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +24,25 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  background-color:rgba(89, 255, 47, 0.452);
+  border-radius:5px;
+  border:3px solid rgba(56, 232, 255, 0.486);
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:8px 38px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.post {
+  padding: 50px;
+  border-bottom:3px solid rgba(56, 232, 255, 0.486);
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.liked h4 {
+  color:rgba(89, 255, 47, 0.452);
 }
